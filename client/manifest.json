@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "LLM-transparency-layer",
+  "version": "1.0",
+  "description": "Highlight GPT prompts/responses and extract AI assumptions.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["logo.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
