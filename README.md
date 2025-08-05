@@ -41,16 +41,12 @@ This project provides a FastAPI backend and a Chrome extension frontend to analy
 
    ```bash
    git clone https://github.com/waniagondal/LLM-transparency-layer.git
-   
-   ```bash
    cd LLM-transparency-layer
 
 2. Create and activate a Python virtual environment (recommended):
 
    ```bash
    python3 -m venv venv
-   
-   ```bash
    source venv/bin/activate   # On Windows: venv\Scripts\activate
    
 3. Install backend dependencies:
