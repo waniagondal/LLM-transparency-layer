@@ -2,8 +2,6 @@
 
 This project provides a FastAPI backend and a Chrome extension frontend to analyze large language model (LLM) responses by extracting the chain of assumptions the AI makes when generating text. This helps users understand the implicit reasoning behind LLM outputs.
 
----
-
 ## Features
 
 - FastAPI backend API for analyzing LLM responses  
@@ -12,8 +10,6 @@ This project provides a FastAPI backend and a Chrome extension frontend to analy
 - Modular provider interface supporting OpenAI (expandable)  
 - CORS middleware configured for frontend integration  
 
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -21,34 +17,6 @@ This project provides a FastAPI backend and a Chrome extension frontend to analy
 - Python 3.10+  
 - Node.js and npm (for frontend development, if needed)  
 - Google Chrome browser  
-
----
-
-### Backend Setup
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/waniagondal/LLM-transparency-layer.git
-   cd LLM-transparency-layer
-
-2. Create and activate a Python virtual environment (recommended):
-
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
-   
-3. Install backend dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-
-4. Create a .env file in the root directory with your OpenAI API key:
-
-   ```bash
-   OPENAI_API_KEY=your_openai_api_key_here
-
---
 
 ### Frontend Setup
 
@@ -66,6 +34,32 @@ This project provides a FastAPI backend and a Chrome extension frontend to analy
 
    ```bash
    npm run build
+   
+### Backend Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/waniagondal/LLM-transparency-layer.git
+   ```bash
+   cd LLM-transparency-layer
+
+2. Create and activate a Python virtual environment (recommended):
+
+   ```bash
+   python3 -m venv venv
+   ```bash
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   
+3. Install backend dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. Create a .env file in the root directory with your OpenAI API key:
+
+   ```bash
+   OPENAI_API_KEY=your_openai_api_key_here
 ---
 
 ## Running The Project
