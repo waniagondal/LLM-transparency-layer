@@ -1,4 +1,4 @@
-# LLM Transparency Layer
+# GlassOS: LLM Transparency Layer
 
 This project provides a FastAPI backend and a Chrome extension frontend to analyze large language model (LLM) responses by extracting the chain of assumptions the AI makes when generating text. This helps users understand the implicit reasoning behind LLM outputs.
 
@@ -60,7 +60,6 @@ This project provides a FastAPI backend and a Chrome extension frontend to analy
 
    ```bash
    OPENAI_API_KEY=your_openai_api_key_here
----
 
 ## Running The Project
 
