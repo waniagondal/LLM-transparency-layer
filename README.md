@@ -70,21 +70,15 @@ This project provides a FastAPI backend and a Chrome extension frontend to analy
 
 ## Running The Project
 
----
-
-### Backend
-
-Run the FastAPI backend using Uvicorn:
-
-   ```bash
-   uvicorn server.main:app --reload
-
----
-
 ### Frontend
-
 1. Open Google Chrome
 2. Go to chrome://extensions/
 3. Enable Developer mode (toggle top-right)
 4. Click Load unpacked
 5. Select the client folder inside the project directory
+
+### Backend
+Run the FastAPI backend using Uvicorn:
+
+   ```bash
+   uvicorn server.main:app --reload
